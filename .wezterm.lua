@@ -3,7 +3,7 @@ local act = wezterm.action
 local config = wezterm.config_builder()
 
 -- terminal
-config.front_end = "OpenGL"
+-- config.front_end = "OpenGL"
 config.prefer_egl = true
 config.max_fps = 144
 config.initial_cols = 90
